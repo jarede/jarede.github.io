@@ -1,0 +1,43 @@
+body {
+    font-family: 'Fira Code', sans-serif;
+}
+
+p {
+    margin: 0;
+}
+
+.título {
+    margin: auto;
+    width: 300px;
+    text-align: center;
+}
+
+.qr {
+    margin: auto;
+    margin-top: 1vw;
+    width: 300px;
+}
+
+.tags {
+    margin: auto;
+    width: 300px;
+    text-align: center;
+}
+
+.rodapé {
+    margin: auto;
+    margin-top: 3vw;
+    width: 300px;
+    text-align: center;
+}
+
+@media (min-height: 501px) {
+    .rodapé {
+        position: fixed;
+        left: 0;
+        bottom: 20px;
+        width: 100%;
+        text-align: center;
+    }
+
+}
